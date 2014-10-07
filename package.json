@@ -1,0 +1,26 @@
+{
+  "name": "leibniz-series",
+  "version": "0.0.0",
+  "description": "Estimate pi with the Leibniz series",
+  "keywords": [
+    "math"
+  ],
+  "repository": "KenanY/leibniz-series",
+  "license": "MIT",
+  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE.txt"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/index.js"
+  },
+  "devDependencies": {
+    "lodash.isfunction": "^2.4.1",
+    "tape": "^3.0.0"
+  }
+}
