@@ -1,6 +1,6 @@
 {
   "name": "leibniz-series",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Estimate pi with the Leibniz series",
   "keywords": [
     "math"
