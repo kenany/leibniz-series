@@ -1,7 +1,5 @@
 # leibniz-series
 
-[![Build Status](https://img.shields.io/travis/KenanY/leibniz-series.svg)](https://travis-ci.org/KenanY/leibniz-series)
-
 Estimate pi with the
 [Leibniz series](https://en.wikipedia.org/wiki/Leibniz_formula_for_%CF%80).
 
