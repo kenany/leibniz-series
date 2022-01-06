@@ -1,3 +1,7 @@
+/**
+ * @param {number} n
+ * @returns {number}
+ */
 function leibnizSeries(n) {
   var ret = 0;
   for (var i = 0; i <= n; i++) {

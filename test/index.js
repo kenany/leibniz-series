@@ -1,6 +1,7 @@
-var leibnizSeries = require('../');
-var test = require('tape');
-var isFunction = require('lodash.isfunction');
+const test = require('tape');
+const isFunction = require('lodash.isfunction');
+
+const leibnizSeries = require('../');
 
 test('exports a function', function(t) {
   t.plan(1);
@@ -9,9 +10,11 @@ test('exports a function', function(t) {
 
 test('approaches pi as series increases', function(t) {
   for (var i = 2; i < 1001; i++) {
-    t.ok(i % 2
-      ? leibnizSeries(i) < leibnizSeries(i - 1)
-      : leibnizSeries(i) > leibnizSeries(i - 1));
+    t.ok(
+      i % 2
+        ? leibnizSeries(i) < leibnizSeries(i - 1)
+        : leibnizSeries(i) > leibnizSeries(i - 1)
+    );
   }
   t.end();
 });
