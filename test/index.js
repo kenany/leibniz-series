@@ -9,7 +9,7 @@ test('exports a function', function(t) {
 });
 
 test('approaches pi as series increases', function(t) {
-  for (var i = 2; i < 1001; i++) {
+  for (let i = 2; i < 1001; i++) {
     t.ok(
       i % 2
         ? leibnizSeries(i) < leibnizSeries(i - 1)

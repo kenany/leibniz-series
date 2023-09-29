@@ -6,7 +6,7 @@ Estimate pi with the
 ## Example
 
 ``` javascript
-var leibnizSeries = require('leibniz-series');
+const leibnizSeries = require('leibniz-series');
 
 leibnizSeries(100);
 // => 3.1514934010709914 (meh, close enough)
@@ -24,7 +24,7 @@ $ npm install leibniz-series
 ## API
 
 ``` javascript
-var leibnizSeries = require('leibniz-series');
+const leibnizSeries = require('leibniz-series');
 ```
 
 ### `leibnizSeries(n)`
